@@ -22,6 +22,10 @@ public class ContainsDuplicate {
 	Output: true
 	*/
 
+	/*
+	Time complexity: O(n)
+	Space complexity: O(n)
+	*/
 	public boolean containsDuplicate(int[] nums) {
 		final var set = new HashSet<>();
 		for (int i = 0; i < nums.length; i++) {
@@ -33,6 +37,10 @@ public class ContainsDuplicate {
 		return false;
 	}
 
+	/*
+	Time complexity: O(n*log(n))
+	Space complexity: O(1)
+	*/
 	public boolean containsDuplicateSW(int[] nums) {
 		int k = 2, i = 0;
 		Arrays.sort(nums);

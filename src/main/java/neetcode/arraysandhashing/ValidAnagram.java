@@ -21,6 +21,10 @@ public class ValidAnagram {
 	1 <= s.length, t.length <= 5 * 104
 	s and t consist of lowercase English letters.*/
 
+	/*
+	Time complexity: O(n)
+	Space complexity: O(26)=O(1)
+	*/
 	public boolean isAnagram(String s, String t) {
 		char[] arrS = new char[26], arrT = new char[26];
 		if (s.length() != t.length()) {
