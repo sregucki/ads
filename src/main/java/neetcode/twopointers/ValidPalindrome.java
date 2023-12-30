@@ -28,6 +28,10 @@ public class ValidPalindrome {
 	1 <= s.length <= 2 * 105
 	s consists only of printable ASCII characters. */
 
+	/*
+	Time complexity: O(n)
+	Space complexity: O(1)
+	*/
 	public boolean isPalindrome(String s) {
 		int l = 0, r = s.length() - 1;
 		while (l < r) {
