@@ -1,6 +1,5 @@
-from typing import Any
-
 import requests
+from typing import Any
 
 
 def get_leetcode_solutions() -> dict[Any, Any]:
@@ -27,7 +26,7 @@ def get_leetcode_solutions() -> dict[Any, Any]:
 
 
 def write_to_readme():
-    with open("README.md", "a") as f:
+    with open("PROGRESS.md", "w+") as f:
         f.write(
             f"## Progress\n### Problems solved\n"
             f"|          | solved | total |\n"
