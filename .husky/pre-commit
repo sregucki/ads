@@ -1,1 +1,1 @@
-echo "test"
+python3 readme_updater.py
