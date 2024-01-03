@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "author": "Sebastian Regucki",
   "license": "ISC",
   "dependencies": {
+    "husky": "^8.0.3",
     "prettier": "^3.1.1",
     "prettier-plugin-java": "^2.5.0"
   }
