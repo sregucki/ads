@@ -12,6 +12,10 @@ public class TreeNode {
 		this.right = right;
 	}
 
+	public static TreeNode arrayToTree(int[] array) {
+		return arrayToTree(array, 0);
+	}
+
 	public static TreeNode arrayToTree(int[] array, int index) {
 		if (index >= array.length) return null;
 		return new TreeNode(
