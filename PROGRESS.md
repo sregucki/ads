@@ -2,7 +2,7 @@
 ### Problems solved
 |          | solved | total |
 |----------|--------|-------|
-| All      |   54   |  2867 |
+| All      |   55   |  2867 |
 | Easy     |   20   |
-| Medium   |   31   |
+| Medium   |   32   |
 | Hard     |   3    |
