@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
-import shared.Pair;
+import org.apache.commons.lang3.tuple.Pair;
 
 public class TaskScheduler {
 
@@ -67,7 +67,7 @@ public class TaskScheduler {
 				int curr = heap.poll();
 				curr--;
 				if (curr > 0) {
-					queue.add(new Pair<>(curr, time + n));
+					queue.add(Pair.of(curr, time + n));
 				}
 			}
 			if (!queue.isEmpty() && queue.peek().getValue() == time) {
