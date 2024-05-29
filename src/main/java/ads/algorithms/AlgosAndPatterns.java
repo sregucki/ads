@@ -1,15 +1,16 @@
 package ads.algorithms;
 
+import java.util.List;
 import shared.ListNode;
 import shared.TreeNode;
 
 public interface AlgosAndPatterns {
-	int[][] slidingWindow(int[] arr);
-	int binarySearchRecursive(int[] arr);
-	int binarySearchIterative(int[] arr);
-	void reverseLinkedList(ListNode head);
-	void dfsTree(TreeNode root);
-	void bfsTree(TreeNode root);
-	void dfsGraph(char[][] grid);
-	void bfsGraph(char[][] grid);
+	List<List<Integer>> slidingWindow(int[] arr);
+	int binarySearchRecursive(int[] arr, int target);
+	int binarySearchIterative(int[] arr, int target);
+	ListNode reverseLinkedList(ListNode head);
+	List<Integer> dfsTree(TreeNode root);
+	List<Integer> bfsTree(TreeNode root);
+	List<Integer> dfsGraph(int[][] grid);
+	List<Integer> bfsGraph(int[][] grid);
 }

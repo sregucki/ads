@@ -12,6 +12,10 @@ public class TreeNode {
 		this.right = right;
 	}
 
+	public TreeNode(int val) {
+		this(val, null, null);
+	}
+
 	public static TreeNode arrayToTree(int[] array) {
 		return arrayToTree(array, 0);
 	}
